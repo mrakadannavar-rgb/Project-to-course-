@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whisk API Course</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar glass-panel">
+            <div class="sidebar-header">
+                <h2>Whisk Course</h2>
+            </div>
+            <nav id="module-nav"></nav>
+        </aside>
+        <main class="content-area">
+            <div id="content" class="glass-panel markdown-body">
+                <!-- Content injected here -->
+                <div class="welcome-message">Select a module from the sidebar to begin.</div>
+            </div>
+        </main>
+    </div>
+    <!-- Load marked via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
